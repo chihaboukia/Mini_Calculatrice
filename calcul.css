@@ -20,3 +20,46 @@ body{
 
 
 }
+#keys{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 7px;
+   padding: 25PX ;
+}
+#display{
+width: 100%; 
+padding: 10px;
+font-size: 4rem;
+color: rgb(0, 0, 0);
+border: none;
+background-color:hsl(0, 11%, 90%);
+text-align: left;
+
+}
+button{
+    width: 75px;
+    height: 75PX;
+    border-radius:  30%;
+    border: none;
+    background-color:hsl(0, 11%, 85%);
+    color: white;
+    font-size: 3rem;
+    font-weight: 3rem;
+    cursor:pointer
+
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 55%);
+}
+.operator-btn{
+    background-color: hsl(35, 100%, 70%);
+}
+.operator-btn:hover{
+    background-color: hsl(35, 100%, 75%);
+}
+.operator-btn:active{
+    background-color: hsl(35, 100%, 80%);
+}
